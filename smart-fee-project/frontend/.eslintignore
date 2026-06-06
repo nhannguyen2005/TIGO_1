@@ -1,0 +1,12 @@
+# Bỏ qua thư mục cài đặt thư viện bên thứ ba
+node_modules/
+
+# Triệt tiêu hoàn toàn lỗi Lint quét vào các thư mục build/dist khi chạy npm run dev
+dist/
+build/
+
+# Các file cấu hình hệ thống không chạy mã nguồn giao diện
+*.config.js
+vite.config.js
+postcss.config.js
+tailwind.config.js
